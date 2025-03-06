@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const element = document.getElementById("level");
+let element = document.getElementById("level");
 let count=0;
 while(element.localName!=="html"){
 	++count;
